@@ -45,27 +45,13 @@ RUN pip2 install -U \
       numpy \
       scipy \
       matplotlib \
-      pandas \
-      sympy \
-      nose \
-      spacy \
       tqdm \
       wheel \
-      scikit-learn \
-      scikit-image \
-      nltk \
       statsmodels
 RUN python3 -m pip install -U \
       numpy \
       scipy \
       matplotlib \
-      pandas \
-      sympy \
-      nose \
-      spacy \
       tqdm \
       wheel \
-      scikit-learn \
-      scikit-image \
-      nltk \
       statsmodels
