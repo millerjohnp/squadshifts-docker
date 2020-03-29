@@ -23,8 +23,7 @@ RUN apt-get update && apt-get install -y \
     curl
 
 ## Python 3.6
-RUN add-apt-repository ppa:deadsnakes/ppa && \
-    apt-get update -y  && \
+RUN apt-get update -y  && \
     apt-get install python3.6 -y \
         python3.6-venv \
         python3.6-dev \
